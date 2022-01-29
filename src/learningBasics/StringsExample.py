@@ -34,3 +34,11 @@ def checkFunction():
             print(upperCaseCountry)
 
 checkFunction()
+
+#format method
+name = "Prince"
+age = "30"
+location = "Pune"
+country = "India"
+myorder = "My name is {0} my age is {1} my location {2} and my country is "+country
+print(myorder.format(name, age, location)) 
